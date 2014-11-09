@@ -11,7 +11,7 @@ function dotw(){
 
   var day = weekday[d.getDay()];
   document.getElementById("dotw").innerHTML = "Today is " + "<u>" + day + "</u>";
-  var timetable = ["You're not at school today.. or at least you shouldn't be...","You start the day with Maths," + "<br><br>" + "Then for second period you move onto Maths," + "<br><br>" + "Thirdly, you have Maths," + "<br><br>" + "Then, just before lunch you have Maths," + "<br><br>" + "And finally, after lunch, to finish off the day you have Maths", "You start the day with Maths," + "<br><br>" + "Then for second period you move onto Maths," + "<br><br>" + "Thirdly, you have Maths," + "<br><br>" + "Then, just before lunch you have Maths," + "<br><br>" + "And finally, after lunch, to finish off the day you have Maths"];
+  var timetable = ["You're not at school today.. or at least you shouldn't be...",];
   var timetable = timetable[1];
   document.getElementById("timetable").innerHTML = timetable;
 }
