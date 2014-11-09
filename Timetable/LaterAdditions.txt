@@ -1,0 +1,12 @@
+-----Js----
+var user = new Array(100);
+user[1] = "Jake Mortimer";
+document.getElementById("dotw").innerHTML = "Who is this?";
+document.getElementById("timetable").innerHTML = "mmhmm.. this guy looks suspicious.";
+var name = document.getElementById("b4").innerHTML;
+if name == "Jake Mortimer"{
+
+}
+
+-----HTML-----
+<input id = "b4" type = "text" name = "name">

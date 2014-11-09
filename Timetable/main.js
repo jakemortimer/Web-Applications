@@ -9,23 +9,29 @@ function dotw(){
   weekday[5] = "Friday";
   weekday[6] = "Saturday";
 
-
-  var user = new Array(100);
-  user[1] = "Jake Mortimer";
-  document.getElementById("dotw").innerHTML = "Who is this?";
-  document.getElementById("timetable").innerHTML = "mmhmm.. this guy looks suspicious.";
-  var name = document.getElementById("b4").innerHTML
-  if name == "Jake Mortimer"{
-
-  }
-
-
-
   var day = weekday[d.getDay()];
-  document.getElementById("dotw").innerHTML = day;
-  var timetable = ["Computing, Computing, Computing, Computing, Computing","Maths, Maths, Maths, Maths, Maths", "English, English, English, English, English", "History, History, History, History, History", "French, French, French, French, French", "You're not at school today.. or at least you shouldn't be...", "You're not at school today.. or at least you shouldn't be..."];
-  var timetable = timetable[d.getDay()];
+  document.getElementById("dotw").innerHTML = "Today is " + "<u>" + day + "</u>";
+  var timetable = ["You're not at school today.. or at least you shouldn't be...","You start the day with Maths," + "<br><br>" + "Then for second period you move onto Maths," + "<br><br>" + "Thirdly, you have Maths," + "<br><br>" + "Then, just before lunch you have Maths," + "<br><br>" + "And finally, after lunch, to finish off the day you have Maths", "You start the day with Maths," + "<br><br>" + "Then for second period you move onto Maths," + "<br><br>" + "Thirdly, you have Maths," + "<br><br>" + "Then, just before lunch you have Maths," + "<br><br>" + "And finally, after lunch, to finish off the day you have Maths"];
+  var timetable = timetable[1];
   document.getElementById("timetable").innerHTML = timetable;
 }
 
+function startTime() {
+    var today=new Date();
+    var h=today.getHours();
+    var m=today.getMinutes();
+    var s=today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById("time").innerHTML = "The current time in Great Britain is " + "<u>"+ h+":"+m+":"+s + "</u>" + ".";
+    var t = setTimeout(function(){startTime()},500);
+}
+
+function checkTime(i) {
+    if (i<10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+
 dotw();
+checkTime();
+startTime();
