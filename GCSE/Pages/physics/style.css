@@ -50,10 +50,22 @@
 #g{
 	background-color:#FFCC00;
 }
-#footer {
+#Detailhead{
 	clear: both;
-	width:100vw;
 	height: 10vw;
+	width: 100vw;
 	background-color: #4D4D4D;
 	display: inline-block;
+	font-size: 32px;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 5vw;
+}
+#Detail {
+	clear: both;
+	width:100vw;
+	background-color: #4D4D4D;
+	display: inline-block;
+
 }
