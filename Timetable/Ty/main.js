@@ -41,11 +41,11 @@ function greet(){
   var h=today.getHours();
   var greeting;
     if (h < 10) {
-        greeting = "Good morning, Mr. Mortimer";
+        greeting = "Good morning, Mr. Mason";
     } else if (h < 16) {
-        greeting = "Good day, Mr. Mortimer";
+        greeting = "Good day, Mr. Mason";
     } else {
-        greeting = "Good evening, Mr. Mortimer";
+        greeting = "Good evening, Mr. Mason";
     }
     document.getElementById("greeting").innerHTML = greeting;
 }
