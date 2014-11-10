@@ -11,9 +11,12 @@ function dotw(){
 
   var day = weekday[d.getDay()];
   document.getElementById("dotw").innerHTML = "Today is " + "<u>" + day + "</u>";
-  var timetable = ["You're not at school today.. or at least you shouldn't be...",];
-  var timetable = timetable[1];
+  var timetable = ["You shouldn't be at school today..", "If it is Week 1 then : <br /> Firstly, you should have ... . <br /> Then, you have ... . <br /> After that you have ... . <br /> Just before lunch you have ... . <br /> Lastly you have ... . <br /> If it is Week 2 then you have: Firstly, you should have ... . <br /> Then, you have ... . <br /> After that you have ... . <br /> Just before lunch you have ... . <br /> Lastly you have ... .",
+  "If it is Week 1 then : <br /> Firstly, you should have ... . <br /> Then, you have ... . <br /> After that you have ... . <br /> Just before lunch you have ... . <br /> Lastly you have ... . <br /> If it is Week 2 then you have: Firstly, you should have ... . <br /> Then, you have ... . <br /> After that you have ... . <br /> Just before lunch you have ... . <br /> Lastly you have ... .", "If it is Week 1 then : <br /> Firstly, you should have ... . <br /> Then, you have ... . <br /> After that you have ... . <br /> Just before lunch you have ... . <br /> Lastly you have ... . <br /> If it is Week 2 then you have: Firstly, you should have ... . <br /> Then, you have ... . <br /> After that you have ... . <br /> Just before lunch you have ... . <br /> Lastly you have ... .",
+  "If it is Week 1 then : <br /> Firstly, you should have ... . <br /> Then, you have ... . <br /> After that you have ... . <br /> Just before lunch you have ... . <br /> Lastly you have ... . <br /> If it is Week 2 then you have: Firstly, you should have ... . <br /> Then, you have ... . <br /> After that you have ... . <br /> Just before lunch you have ... . <br /> Lastly you have ... .", "If it is Week 1 then : <br /> Firstly, you should have ... . <br /> Then, you have ... . <br /> After that you have ... . <br /> Just before lunch you have ... . <br /> Lastly you have ... . <br /> If it is Week 2 then you have: Firstly, you should have ... . <br /> Then, you have ... . <br /> After that you have ... . <br /> Just before lunch you have ... . <br /> Lastly you have ... .", "You shouldn't be at school today..."];
+  var timetable = timetable[d.getDay()];
   document.getElementById("timetable").innerHTML = timetable;
+
 }
 
 function startTime() {
