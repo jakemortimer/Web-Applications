@@ -1,6 +1,12 @@
 html{
 
 }
+#greeting{
+  color:#5f5c5b;
+  font-family: Century Gothic, sans-serif;
+  font-size: 40px;
+  font-weight: 10;
+}
 #dotw{
   color:#5f5c5b;
   font-family: Century Gothic, sans-serif;
