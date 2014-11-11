@@ -11,9 +11,18 @@ function dotw(){
 
   var day = weekday[d.getDay()];
   document.getElementById("dotw").innerHTML = "Today is " + "<u>" + day + "</u>";
-  var timetable = ["You shouldn't be at school today..", "If it is Week 1 then : <br /><br /> Firstly, you should have Maths. <br /><br /> Then, you have Computing. <br /><br /> After that, you have ICT. <br /><br /> Just before lunch you have Physics. <br /><br /> Lastly, you have English. <br /><br /> If it is Week 2 then: <br /><br /> Firstly, you should have Maths. <br /><br /> Then, you have English. <br /><br /> After that, you have Chemistry. <br /><br /> Just before lunch you have PE. <br /><br /> Lastly, you have Biology.",
-  "If it is Week 1 then : <br /><br /> Firstly, you should have History. <br /><br /> Then, you have French. <br /><br /> After that, you have Biology. <br /><br /> Just before lunch you have English. <br /><br /> Lastly, you have Maths. <br /><br /> If it is Week 2 then: <br /><br /> Firstly, you should have History. <br /><br /> Then, you have Chemistry. <br /><br /> After that, you have Maths. <br /><br /> Just before lunch you have English. <br /><br /> Lastly, you have Biology.", "If it is Week 1 then : <br /><br /> Firstly, you should have History. <br /><br /> Then, you have History. <br /><br /> After that, you have Physics. <br /><br /> Just before lunch you have Chemistry. <br /><br /> Lastly, you have ICT. <br /><br /> If it is Week 2 then: <br /><br /> Firstly, you should have Physics. <br /><br /> Then, you have English. <br /><br /> After that, you have Chemistry. <br /><br /> Just before lunch you have Chemistry. <br /><br /> Lastly, you have PE.",
-  "If it is Week 1 then : <br /><br /> Firstly, you should have Maths. <br /><br /> Then, you have Science. <br /><br /> After that, you have French. <br /><br /> Just before lunch you have French. <br /><br /> Lastly, you have Computing. <br /><br /> If it is Week 2 then: <br /><br /> Firstly, you should have Physics. <br /><br /> Then, you have ICT. <br /><br /> After that, you have Computing. <br /><br /> Just before lunch you have Computing. <br /><br /> Lastly, you have French.", "If it is Week 1 then : <br /><br /> Firstly, you should have Biology. <br /><br /> Then, you have English. <br /><br /> After that, you have French. <br /><br /> Just before lunch you have Maths. <br /><br /> Lastly, you have ICT. <br /><br /> If it is Week 2 then: <br /><br /> Firstly, you should have Maths. <br /><br /> Then, you have History. <br /><br /> After that, you have English. <br /><br /> Just before lunch you have Biology. <br /><br /> Lastly, you have Computing.", "You shouldn't be at school today..."];
+    var timetable = ["You shouldn't be at school today..",
+  //Monday
+  "Firstly, you should have Maths. <br /><br /> Then, just before break you have Chemistry. <br /><br /> After that, you have French. <br /><br />  After that you have French again. <br /><br /> Before lunch you have English. <br /><br /> After lunch you have English again <br /><br /> Finally you have Chemistry",
+  //Tuesday
+  "Firstly, you should have Physics. <br /><br /> Then, just before break you have Physics. <br /><br /> After that, you have Computing. <br /><br />  After that you have History. <br /><br /> Before lunch you have Maths. <br /><br /> After lunch you have Maths again <br /><br /> Finally you have English",
+  //Wednesday
+  "Firstly, you should have English. <br /><br /> Then, just before break you have Biology. <br /><br /> After that, you have English. <br /><br />  After that you have Computing. <br /><br /> Before lunch you have Business. <br /><br /> After lunch you have Maths <br /><br /> Finally you have Study",
+  //Thursday
+  "Firstly, you should have Biology. <br /><br /> Then, just before break you have Maths. <br /><br /> After that, you have Maths again. <br /><br />  After that you have Biology. <br /><br /> Before lunch you have English. <br /><br /> After lunch you have English again. <br /><br /> Finally you have French",
+  //Friday
+  "Firstly, you should have Business. <br /><br /> Then, just before break you have Business again. <br /><br /> After that, you have PE. <br /><br />  Before lunch you have PE again. <br /><br /> Finally you have History",
+  "You shouldn't be at school today..."];
   var timetable = timetable[d.getDay()];
   document.getElementById("timetable").innerHTML = timetable;
 
@@ -44,8 +53,10 @@ function greet(){
         greeting = "Good morning, Mr. Mason";
     } else if (h < 16) {
         greeting = "Good day, Mr. Mason";
-    } else {
+    } else if (h < 22){
         greeting = "Good evening, Mr. Mason";
+    } else {
+      greeting = "You should be getting to sleep now, Mr Mason";
     }
     document.getElementById("greeting").innerHTML = greeting;
 }
