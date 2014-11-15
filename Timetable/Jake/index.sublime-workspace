@@ -1,0 +1,199 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"prev",
+				"previousNameQuery"
+			],
+			[
+				"ba",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Jake/Documents/HTML/script.js",
+		"/C/Users/Jake/AppData/Local/Temp/fz3temp-1/index 2.html",
+		"/C/Users/Jake/Documents/GitHub/jakey1610.github.io/index.php",
+		"/C/Users/Jake/Documents/HTML/index.php",
+		"/C/Users/Jake/Desktop/Tether/tether-master/examples/testbed/index.html",
+		"/F/CodeCentral/index.html",
+		"/C/Users/Jake/AppData/Local/Temp/fz3temp-1/index.html",
+		"/C/Users/Jake/Downloads/phpBB-3.0.12/phpBB3/common.php",
+		"/C/Users/Jake/Documents/HTML/style.css",
+		"/F/CodeCentral/index.php",
+		"/C/Users/Jake/Documents/GitHub/CodeCentral/index.php",
+		"/C/Users/Jake/AppData/Local/Temp/fz3temp-1/form.html",
+		"/C/Users/Jake/Documents/HTML/needs_work.php",
+		"/C/Users/Jake/Documents/test.php",
+		"/C/Users/Jake/Documents/HTML/Data.php",
+		"/C/Users/Jake/Downloads/address2/process.php",
+		"/C/Users/Jake/Downloads/address2/address.html",
+		"/C/Users/Jake/Documents/HTML/check.asp",
+		"/C/Users/Jake/Downloads/pbsetup/pbuser.htm",
+		"/C/Users/Jake/Downloads/pbsetup/pbgame.htm",
+		"/C/Users/Jake/Documents/Christmas list",
+		"/C/Users/Jake/Documents/Coding/Python/Username.py",
+		"/C/Users/Jake/Documents/Coding/CPlusPlus/sample.cpp",
+		"/C/Users/Jake/Documents/Python/Username.py",
+		"/C/Users/Jake/Desktop/test.html",
+		"/C/Users/Jake/Desktop/Code/test.html",
+		"/C/Program Files (x86)/Steam/steamapps/common/Burnout(TM) Paradise The Ultimate Box/Support/EA Help/Electronic_Arts_Technical_Support.htm",
+		"/C/Users/Jake/Downloads/watch.htm"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
