@@ -1,0 +1,7 @@
+Welcome to your new branch Ty. Remember to read the "README.md" file that I have
+made and once you have finished a project remember to merge the master branch and
+yours. Once you see this message and have understood the instructions make sure that 
+you delete this message from your branch; we don't want problems with merging when it
+comes to it.
+Thanks and enjoy,
+Jakey1610
