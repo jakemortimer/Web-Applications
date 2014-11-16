@@ -50,7 +50,16 @@ function greet(){
     document.getElementById("greeting").innerHTML = greeting;
 }
 
-greet();
-dotw();
-checkTime();
-startTime();
+$(function(){   
+    $("#greeting").hide().fadeIn(1000);
+    $("#dotw").hide().fadeIn(3000);
+    $("#time").hide().fadeIn(5000);
+    $("#timetable").hide().fadeIn(7000);
+});
+
+$(function(){   
+  greet();
+  dotw();
+  checkTime();
+  startTime();
+});
