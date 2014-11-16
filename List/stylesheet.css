@@ -1,0 +1,16 @@
+body{
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+#list{
+	border:none;
+	width:100%;
+	resize:both;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	font-family:Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	font-size:25px;
+}
+#list:focus { 
+	outline:none; 
+}
