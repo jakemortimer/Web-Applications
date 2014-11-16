@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link type = "text/css" rel = "stylesheet" href = "stylesheet.css">
-    <script src = "main.js"></script>
+    <link type = "text/css" rel = "stylesheet" href = "css/stylesheet.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src = "js/main.js"></script>
     <title>Timetable</title>
   </head>
   <body onload = "dotw(); startTime(); checkTime(); greet();">
@@ -14,5 +15,11 @@
       <p id = "timetable"></p>
     </div>
     </center>
+    <script type = "text/javascript">
+        $("#greeting").show();
+        $("#dotw").fadeIn(2000);
+        $("#time").fadeIn(3000);
+        $("#timetable").fadeIn(4000);
+    </script>
   </body>
 </html>
