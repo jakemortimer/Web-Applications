@@ -25,3 +25,16 @@ html{
   font-size: 30px;
   font-weight: 10;
 }
+#week{
+  border:none;
+  color:#5f5c5b;
+  font-family: Century Gothic, sans-serif;
+  font-size: 20px;
+  font-weight: 10;
+}
+#week:focus{
+  outline:0;
+}
+#sub{
+  display:none;
+}
